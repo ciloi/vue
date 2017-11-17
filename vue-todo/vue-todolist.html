@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>vue-todoList</title>
+	<style>
+		.todo-box{
+			width: 500px;
+			margin: 0 auto;
+		}
+		li{
+			position: relative;
+		}
+		.close{
+			color: red;
+			position: absolute;
+			right: 0;
+			top: 0;
+		}
+		.complate{
+			color: green;
+			position: absolute;
+			right: 30px;
+			top: 0;
+		}
+		.complated{
+			text-decoration: line-through;
+		}
+		[v-cloak]{
+			display: none;
+		}
+	</style>
+</head>
+<body>
+	<div id="todoBox"  class="todo-box">
+	<input type="text" v-model="message"  @keyup.enter="addItem">
+	<button v-on:click="addItem">添加待办事项</button>
+	<ol v-cloak>
+		<li v-for="(item,index) in todoList" v-bind:class="{complated:item.finished,kkkk:item.editable}">
+			<p  @click="editItem(item)" v-show='!item.editable'>{{item.text}}</p>
+			<p v-show='item.editable'>
+				<input v-model="item.text"> 
+				<span  @click="editItem(item)">确定</span>
+			</p>
+			<i class="complate"  @click="complateItem(item)"  v-show='item.finished'>todo</i>
+			<i class="complate" @click="complateItem(item)" v-show='!item.finished'>done</i>
+			<i class="close" @click="delItem(index)">X</i>
+		</li>
+	</ol>
+</div>
+</body>
+<script src="https://unpkg.com/vue"></script>
+<script>
+	var Todo = new Vue({
+		el:'#todoBox',
+		data:{
+			todoList:[{
+				text:'学习Vue',
+				editable:false,
+				finished:false
+			},{
+				text:'学习Js',
+				editable:false,
+				finished:false
+			}],
+			message:''
+		},
+		methods:{
+			addItem:function(){
+				if(this.message){
+					this.todoList.push({text:this.message,editable:false,finished:false})
+				}else {
+					alert('请添加待办事项')
+				}
+			},
+			delItem:function(index){
+				this.todoList.splice(index,1)
+			},
+			editItem:function(item){
+				if(item.finished){
+					return;
+				}
+				var thisEidt = !item.editable ;
+				this.todoList.forEach(function(item,index){
+					item.editable = false;
+				})
+				item.editable = thisEidt;
+			},
+			complateItem:function(item){
+				item.editable = false;
+				item.finished = !item.finished;
+			}
+		}
+	})
+</script>
+</html>
