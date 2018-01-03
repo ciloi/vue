@@ -1,0 +1,20 @@
+{
+  "title": "indexNav",
+  "total": 39,
+  "start": 0,
+  "count": 20,
+  "subjects": [
+    {
+      "title": "影院热映"
+    },
+    {
+      "title": "近期值得看的国产剧"
+    },
+    {
+      "title": "豆瓣时间"
+    },
+    {
+      "title": "使用豆瓣APP"
+    }
+  ]
+}

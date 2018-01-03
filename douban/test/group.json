@@ -1,0 +1,48 @@
+[
+  {
+    "title":"影视",
+    "groupSection":[
+      {
+        "name":"The Criterion Collection",
+        "pic":"https://img3.doubanio.com/icon/g21337-5.jpg",
+        "num":12323,
+        "info":"Criterion Collection的出品是最传统亦是最具美感的DVD产品。如果你酷爱欧洲的电影经典，对好莱坞的主流制造又嗤之以鼻，那么Criterion Collection将会是属于你的DVD宝藏。 "
+      },
+      {
+        "name":"The Criterion Collection12",
+        "pic":"https://img3.doubanio.com/icon/g21337-5.jpg",
+        "num":13,
+        "info":"喜欢哈利咩？喜欢柯南咩？啊哈！你找对地方了！~很惊讶居然有这么多人居然会喜欢两个毫不相干的人物..."
+      },
+      {
+        "name":"The Criterion Collection13",
+        "pic":"https://img3.doubanio.com/icon/g21337-5.jpg",
+        "num":1,
+        "info":"Criterion Collection的出品是最传统亦是最具美感的DVD产品。如果你酷爱欧洲的电影经典，对好莱坞的主流制造又嗤之以鼻，那么Criterion Collection将会是属于你的DVD宝藏。 "
+      }
+    ]
+  },
+  {
+    "title":"读书",
+    "groupSection":[
+      {
+        "name":"今晚我们读历史",
+        "pic":"https://img3.doubanio.com/icon/g21337-5.jpg",
+        "num":12323,
+        "info":"以史为镜，可以知兴替。"
+      },
+      {
+        "name":"经典短篇阅读",
+        "pic":"https://img3.doubanio.com/icon/g21337-5.jpg",
+        "num":13,
+        "info":"个体自我的每一次伟大的提高，都源于同古典世界的重新接触。当这个世界被遗忘的时候，野蛮状态总是重现"
+      },
+      {
+        "name":"俄苏文学",
+        "pic":"https://img3.doubanio.com/icon/g21337-5.jpg",
+        "num":1,
+        "info":"伟大的俄罗斯作家马克西姆·高尔基论及文学在社会生活中的意义时，说道：“文学的目的，是帮助人们了解自己，加强他们对自己..."
+      }
+    ]
+  }
+]

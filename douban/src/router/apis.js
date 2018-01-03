@@ -1,0 +1,27 @@
+module.exports = {
+  movie:{
+    'hotMovie':['/api/movie/hotMovie','/test/movie/hotMovie.json'],
+    'newMovie':['/api/movie/newMovie','/test/movie/newMovie.json'],
+    'freeMovie':['/api/movie/freeMovie','/test/movie/freeMovie.json'],
+    'foundMovie':['/api/movie/foundMovie','/test/movie/foundMovie.json'],
+    'hotMovie':['/api/movie/hotMovie','/test/movie/hotMovie.json'],
+    'classifyMovie':['/api/movie/classifyMovie','/test/movie/classifyMovie.json']
+  },
+  books:{
+    'newBooks':['/api/books/newBooks','/test/books/newBooks.json'],
+    'hotBooks':['/api/books/hotBooks','/test/books/hotBooks.json'],
+    'bookStore':['/api/books/bookStore','/test/books/bookStore.json'],
+    'freeBooks':['/api/books/freeBooks','/test/books/freeBooks.json'],
+    'foundBooks':['/api/books/foundBooks','/test/books/foundBooks.json'],
+    'classifyBooks':['/api/books/classifyBooks','/test/books/classifyBooks.json'],
+  },
+  status:{
+    'status':['/api/books/status','/test/status/status.json']
+  },
+  group:{
+    'group':['/api/books/group','/test/group/group.json']
+  },
+  index:{
+    'recommendList':['/api/index/recommendList','/test/index/recommendList.json']
+  }
+}

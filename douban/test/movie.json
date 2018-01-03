@@ -1,0 +1,119 @@
+{
+  "newMovie":{
+    "title": "新片速递",
+    "total": 39,
+    "start": 0,
+    "count": 20,
+    "subjects": [
+      {
+        "pic":"https://img1.doubanio.com/view/photo/m_ratio_poster/public/p2503997609.jpg",
+        "rating":"9.5",
+        "title":"寻梦环游记"
+      }
+    ]
+  },
+  "hotMovie":{
+    "title": "影院热映",
+    "total": 39,
+    "start": 0,
+    "count": 20,
+    "subjects": [
+      {
+        "pic":"http://img1.doubanio.com/view/photo/m_ratio_poster/public/p2503997609.jpg",
+        "rating":"1",
+        "title":"寻梦环游记1"
+      },
+      {
+        "pic":"https://img1.doubanio.com/view/photo/m_ratio_poster/public/p2503997609.jpg",
+        "rating":"2",
+        "title":"寻梦环游记2"
+      },
+      {
+        "pic":"https://img1.doubanio.com/view/photo/m_ratio_poster/public/p2503997609.jpg",
+        "rating":"3",
+        "title":"寻梦环游记3"
+      },
+      {
+        "pic":"https://img1.doubanio.com/view/photo/m_ratio_poster/public/p2503997609.jpg",
+        "rating":"4",
+        "title":"寻梦环游记4"
+      },
+      {
+        "pic":"https://img1.doubanio.com/view/photo/m_ratio_poster/public/p2503997609.jpg",
+        "rating":"5",
+        "title":"寻梦环游记5"
+      }
+    ]
+  },
+  "freeMovie":{
+    "title": "免费观看",
+    "total": 39,
+    "start": 0,
+    "count": 20,
+    "subjects": [
+      {
+        "pic":"http://img1.doubanio.com/view/photo/m_ratio_poster/public/p2503997609.jpg",
+        "rating":"1",
+        "title":"寻梦环游记2"
+      }
+    ]
+  },
+  "foundMovie":{
+    "title": "发现好电影",
+    "total": 39,
+    "start": 0,
+    "count": 20,
+    "subjects": [
+      {
+        "pic":"http://img1.doubanio.com/view/photo/m_ratio_poster/public/p2503997609.jpg",
+        "id":"1",
+        "title":"美国生活面面观"
+      },
+      {
+        "pic":"http://img1.doubanio.com/view/photo/m_ratio_poster/public/p2503997609.jpg",
+        "id":"2",
+        "title":"美国"
+      },
+      {
+        "pic":"http://img1.doubanio.com/view/photo/m_ratio_poster/public/p2503997609.jpg",
+        "id":"3",
+        "title":"生活面面观"
+      },
+      {
+        "pic":"http://img1.doubanio.com/view/photo/m_ratio_poster/public/p2503997609.jpg",
+        "id":"1",
+        "title":"美国生活面面观1"
+      },
+      {
+        "pic":"http://img1.doubanio.com/view/photo/m_ratio_poster/public/p2503997609.jpg",
+        "id":"2",
+        "title":"美国2"
+      },
+      {
+        "pic":"http://img1.doubanio.com/view/photo/m_ratio_poster/public/p2503997609.jpg",
+        "id":"3",
+        "title":"生活面面观333"
+      }
+    ]
+  },
+  "classifyMovie":{
+    "title": "分类浏览",
+    "total": 39,
+    "start": 0,
+    "count": 20,
+    "subjects": [
+      {
+        "title":"经典"
+      },
+      {
+        "title":"冷门佳片"
+      },
+      {
+        "title":"豆瓣高分"
+      },
+      {
+        "title":"动作"
+      }
+    ]
+  }
+}

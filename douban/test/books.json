@@ -1,0 +1,157 @@
+{
+  "newBooks":{
+    "title": "最受关注图书｜虚构类",
+    "total": 39,
+    "start": 0,
+    "count": 20,
+    "subjects": [
+      {
+        "pic":"https://qnmob3.doubanio.com/lpic/s29535271.jpg?imageView2/0/q/80/w/9999/h/400/format/jpg",
+        "rating":"9.5",
+        "title":"离开的，留下的"
+      }
+    ]
+  },
+  "hotBooks":{
+    "title": "最受关注图书｜非虚构类",
+    "total": 39,
+    "start": 0,
+    "count": 20,
+    "subjects": [
+      {
+        "pic":"http://img1.doubanio.com/view/photo/m_ratio_poster/public/p2503997609.jpg",
+        "rating":"1",
+        "title":"离开的，留下的1"
+      },
+      {
+        "pic":"https://qnmob3.doubanio.com/lpic/s29535271.jpg?imageView2/0/q/80/w/9999/h/400/format/jpg",
+        "rating":"2",
+        "title":"离开的，留下的2"
+      },
+      {
+        "pic":"https://qnmob3.doubanio.com/lpic/s29535271.jpg?imageView2/0/q/80/w/9999/h/400/format/jpg",
+        "rating":"3",
+        "title":"离开的，留下的3"
+      },
+      {
+        "pic":"https://qnmob3.doubanio.com/lpic/s29535271.jpg?imageView2/0/q/80/w/9999/h/400/format/jpg",
+        "rating":"4",
+        "title":"离开的，留下的4"
+      },
+      {
+        "pic":"https://qnmob3.doubanio.com/lpic/s29535271.jpg?imageView2/0/q/80/w/9999/h/400/format/jpg",
+        "rating":"5",
+        "title":"离开的，留下的5"
+      }
+    ]
+  },
+  "bookStore":{
+    "title": "豆瓣书店",
+    "total": 39,
+    "start": 0,
+    "count": 20,
+    "subjects": [
+      {
+        "pic":"http://img1.doubanio.com/view/photo/m_ratio_poster/public/p2503997609.jpg",
+        "price":"1",
+        "info":"跟随一代艺术大家认识美与慈悲",
+        "title":"离开的，留下的1"
+      },
+      {
+        "pic":"https://qnmob3.doubanio.com/lpic/s29535271.jpg?imageView2/0/q/80/w/9999/h/400/format/jpg",
+        "price":"2",
+        "info":"跟随一代艺术大家认识美与慈悲",
+        "title":"离开的，留下的2"
+      },
+      {
+        "pic":"https://qnmob3.doubanio.com/lpic/s29535271.jpg?imageView2/0/q/80/w/9999/h/400/format/jpg",
+        "price":"3",
+        "info":"跟随一代艺术大家认识美与慈悲",
+        "title":"离开的，留下的3"
+      },
+      {
+        "pic":"https://qnmob3.doubanio.com/lpic/s29535271.jpg?imageView2/0/q/80/w/9999/h/400/format/jpg",
+        "price":"4",
+        "info":"跟随一代艺术大家认识美与慈悲",
+        "title":"离开的，留下的4"
+      },
+      {
+        "pic":"https://qnmob3.doubanio.com/lpic/s29535271.jpg?imageView2/0/q/80/w/9999/h/400/format/jpg",
+        "price":"5",
+        "info":"跟随一代艺术大家认识美与慈悲",
+        "title":"离开的，留下的5"
+      }
+    ]
+  },
+  "freeBooks":{
+    "title": "最受关注图书｜非虚构类",
+    "total": 39,
+    "start": 0,
+    "count": 20,
+    "subjects": [
+      {
+        "pic":"http://img1.doubanio.com/view/photo/m_ratio_poster/public/p2503997609.jpg",
+        "rating":"1",
+        "title":"离开的，留下的2"
+      }
+    ]
+  },
+  "foundBooks":{
+    "title": "发现好图书",
+    "total": 39,
+    "start": 0,
+    "count": 20,
+    "subjects": [
+      {
+        "pic":"http://img1.doubanio.com/view/photo/m_ratio_poster/public/p2503997609.jpg",
+        "id":"1",
+        "title":"美国生活面面观"
+      },
+      {
+        "pic":"http://img1.doubanio.com/view/photo/m_ratio_poster/public/p2503997609.jpg",
+        "id":"2",
+        "title":"美国"
+      },
+      {
+        "pic":"http://img1.doubanio.com/view/photo/m_ratio_poster/public/p2503997609.jpg",
+        "id":"3",
+        "title":"生活面面观"
+      },
+      {
+        "pic":"http://img1.doubanio.com/view/photo/m_ratio_poster/public/p2503997609.jpg",
+        "id":"1",
+        "title":"美国生活面面观1"
+      },
+      {
+        "pic":"http://img1.doubanio.com/view/photo/m_ratio_poster/public/p2503997609.jpg",
+        "id":"2",
+        "title":"美国2"
+      },
+      {
+        "pic":"http://img1.doubanio.com/view/photo/m_ratio_poster/public/p2503997609.jpg",
+        "id":"3",
+        "title":"生活面面观333"
+      }
+    ]
+  },
+  "classifyBooks":{
+    "title": "分类浏览",
+    "total": 39,
+    "start": 0,
+    "count": 20,
+    "subjects": [
+      {
+        "title":"小说"
+      },
+      {
+        "title":"历史"
+      },
+      {
+        "title":"爱情"
+      },
+      {
+        "title":"外国文学"
+      }
+    ]
+  }
+}
